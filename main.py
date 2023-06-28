@@ -24,7 +24,7 @@ class MyMainWindow(QMainWindow, Ui_MainWindow):
 		self.setupUi(self)
 		self.setWindowTitle('GIS-Mosaic Coordinate       By ZhangLei 2023')  # main_window的名字
 
-		#给界面左上角添加图标
+		# 给界面左上角添加图标
 		icon = QIcon()
 		icon.addPixmap(QPixmap("./favicon.ico"), QIcon.Normal, QIcon.Off)
 		self.setWindowIcon(icon)
@@ -137,4 +137,3 @@ if __name__ == "__main__":
 
 	main.show()
 	sys.exit(app.exec_())
-123
